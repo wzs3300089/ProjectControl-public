@@ -1,0 +1,14 @@
+html,body,#root{width:100%;height:100%;min-height:0;margin:0;padding:0;overflow:hidden}
+body{font-family:"Segoe UI","Microsoft YaHei",sans-serif}
+.connection-message,.connection-error{padding:24px;font-size:13px;line-height:1.7;color:#596171}
+.connection-error{color:#b42318}
+.connection-error button{display:block;margin-top:12px;padding:7px 12px;cursor:pointer}
+:root[data-theme=dark],:root.dark{
+  color-scheme:dark;
+  --dsw-alias-bg-base:#17191e;--dsw-alias-bg-layer-2:#1d2026;
+  --dsw-alias-label-primary:#edf0f6;--dsw-alias-label-secondary:#bbc3d0;
+  --dsw-alias-label-tertiary:#929bab;--dsw-alias-label-caption:#737e90;
+  --dsw-alias-border-l1:rgba(255,255,255,.07);--dsw-alias-border-l2:rgba(255,255,255,.13);--dsw-alias-border-l3:rgba(255,255,255,.2);
+  --dsw-alias-brand-primary:#e7ebf2;--dsw-alias-button-primary-fill:#e7ebf2;--dsw-alias-button-primary-hover:#fff;--dsw-alias-label-primary-foreground:#15171c;
+  --dsw-alias-state-error-primary:#f97066;--dsw-alias-state-warn-primary:#fdb022;--dsw-alias-state-success-primary:#47cd89;--dsw-alias-state-business-primary:#84adff
+}

@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>项目总控台</title><link rel="stylesheet" href="/web.css">
+</head>
+<body>
+  <main>
+    <header class="heading"><div class="mark" aria-hidden="true">▦</div><div><h1>项目总控台</h1><p>项目便签</p></div><span class="local">本地</span></header>
+    <section class="card" aria-labelledby="note-title">
+      <div class="card-heading"><h2 id="note-title">当前记录</h2><span id="badge" class="badge">待完成</span></div>
+      <label for="note">内容</label>
+      <textarea id="note" maxlength="100000" placeholder="写下当前任务、想法或需要跟进的事…" disabled></textarea>
+      <div class="count"><span id="count">0 字</span></div>
+      <fieldset disabled id="status"><legend>状态</legend><div class="choices">
+        <label class="choice"><input type="radio" name="status" value="pending" checked><span>待完成</span></label>
+        <label class="choice"><input type="radio" name="status" value="completed"><span>完成</span></label>
+      </div></fieldset>
+      <div class="actions"><button id="reload" type="button">重新读取</button><button id="save" class="primary" type="button" disabled>保存</button></div>
+      <p id="feedback" role="status" aria-live="polite">正在读取…</p>
+    </section>
+    <footer>内容保存在本机，与 AI 读写工具共用。<br>对话前后自动整理尚未接入。</footer>
+  </main>
+  <script type="module" src="/web.mjs"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "name": "project-control-distribution",
+  "interface": { "displayName": "项目总控台" },
+  "plugins": [{
+    "name": "project-control",
+    "source": { "source": "local", "path": "./plugins/project-control" },
+    "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+    "category": "Productivity"
+  }]
+}

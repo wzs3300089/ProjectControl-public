@@ -1,0 +1,11 @@
+{
+  "name": "project-control",
+  "version": "0.2.0",
+  "description": "本地项目、模块和需求总控台，支持 Codex AI 助手。",
+  "requires_local_executor": true,
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "项目总控台",
+    "shortDescription": "项目、模块与需求管理"
+  }
+}
